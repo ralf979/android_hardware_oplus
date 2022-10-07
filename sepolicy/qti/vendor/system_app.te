@@ -3,6 +3,7 @@ r_dir_file(system_app, vendor_sysfs_usb_supply)
 
 # Touchpanel
 rw_dir_file(system_app, vendor_proc_display)
+rw_dir_file(system_app, sysfs_vibrator)
 
 # USB fast charge
 rw_dir_file(system_app, vendor_sysfs_fastcharge)
