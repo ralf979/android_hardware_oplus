@@ -8,22 +8,28 @@ oplus.CTP.Tunningmode                            u:object_r:exported_system_prop
 persist.bps.debug                                u:object_r:exported_system_prop:s0
 persist.camera.                                  u:object_r:exported_system_prop:s0
 persist.vendor.aps.debug.framenum                u:object_r:exported_system_prop:s0
+persist.vendor.apsSN.algo.enable       u:object_r:exported_system_prop:s0
 persist.vendor.arcsoft.sn.dumprawinfo            u:object_r:exported_system_prop:s0
+persist.vendor.facebeauty.dump         u:object_r:exported_system_prop:s0
+persist.vendor.supernight.dump         u:object_r:exported_system_prop:s0
 persist.vendor.oplus.rawhdr.dump                 u:object_r:exported_system_prop:s0
 ro.camera.res.fmq.size                           u:object_r:exported_system_prop:s0
 ro.camera.req.fmq.size                           u:object_r:exported_system_prop:s0
+ro.camera.                             u:object_r:exported_system_prop:s0
 ro.oppo.                                         u:object_r:exported_system_prop:s0
 ro.oplus.                                        u:object_r:exported_system_prop:s0
 ro.vendor.gfx.32bit.target                       u:object_r:exported_system_prop:s0
 ro.vendor.oplus.                                 u:object_r:exported_system_prop:s0
 vendor.aps.                                      u:object_r:exported_system_prop:s0
 vendor.arcsoft.                                  u:object_r:exported_system_prop:s0
+vendor.boot.project_name               u:object_r:exported_system_prop:s0
 vendor.camera.                                   u:object_r:exported_system_prop:s0
 vendor.debug.is.rioapk                           u:object_r:exported_system_prop:s0
 vendor.debug.magnet.enable                       u:object_r:exported_system_prop:s0
 vendor.oplus.                                    u:object_r:exported_system_prop:s0
 vendor.oppo.                                     u:object_r:exported_system_prop:s0
 vendor.property.debug.caliexif.enable            u:object_r:exported_system_prop:s0
+vendor.runtime.fastcv.log              u:object_r:exported_system_prop:s0
 
 # Fingerprint
 gf.debug.dump_data    u:object_r:system_fingerprint_prop:s0
@@ -34,6 +40,7 @@ ro.hardware.chipname                u:object_r:exported_default_prop:s0
 
 # Logging
 persist.sys.assert.panic            u:object_r:exported_system_prop:s0
+persist.al.cfr.loglevel             u:object_r:exported_system_prop:s0
 persist.sys.log.                    u:object_r:exported_system_prop:s0
 
 # Modem

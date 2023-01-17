@@ -7,6 +7,8 @@ OplusResourceManagerService     u:object_r:oem_service:s0
 # Oplusoiface
 oplusoiface                     u:object_r:oem_service:s0
 
+ParamService                    u:object_r:oem_service:s0
+
 # IMS
 vendor.qti.hardware.radio.ims.IImsRadio/imsradio0           u:object_r:vendor_hal_telephony_service:s0
 vendor.qti.hardware.radio.ims.IImsRadio/imsradio1           u:object_r:vendor_hal_telephony_service:s0

@@ -7,3 +7,5 @@ rw_dir_file(system_app, vendor_proc_display)
 
 # Zram
 r_dir_file(system_app, sysfs_zram)
+
+allow system_app sysfs_leds:dir search;
