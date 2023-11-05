@@ -8,7 +8,6 @@ allow platform_app oem_service:service_manager find;
 allow platform_app vendor_persist_camera_file:dir search;
 
 allow platform_app selinuxfs:file r_file_perms;
-allow platform_app vendor_xdsp_device:chr_file r_file_perms;
 
 allow platform_app vendor_camera_update_data_file:dir rw_dir_perms;
 allow platform_app vendor_camera_update_data_file:file create_file_perms;
